@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ED1FD11226F2406001F77A0 /* CLSRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1ED1FD10226F2405001F77A0 /* CLSRes.bundle */; };
 		20EF02DDDD8A29942FF6438D6E632EEE /* PlusCLS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCF7A2978EBE6AE5845F02E8C902CC5 /* PlusCLS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B305B5BE28526E0173C14DA4615A79D /* Pods-PlusCLS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D17502C479537FCCDE14F4484F9988 /* Pods-PlusCLS_Tests-dummy.m */; };
 		574BC2C8D795114F31935503F5973A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -41,36 +42,37 @@
 		0DF1E82865C0370F4F795438A90E78DD /* Pods-PlusCLS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlusCLS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		192CC81C208F8471E9F9E0321185ADA8 /* Pods-PlusCLS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlusCLS_Example-Info.plist"; sourceTree = "<group>"; };
 		1BAAED0BD7A9DA612B50537FBAE4FD32 /* Pods-PlusCLS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlusCLS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		37907256AF176A1090D9DEB374B02C64 /* Pods_PlusCLS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlusCLS_Tests.framework; path = "Pods-PlusCLS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED1FD10226F2405001F77A0 /* CLSRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CLSRes.bundle; path = PlusCLS/Assets/CLSRes.bundle; sourceTree = "<group>"; };
+		37907256AF176A1090D9DEB374B02C64 /* Pods_PlusCLS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlusCLS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C08426E057A89259918C56FA171B047 /* Pods-PlusCLS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PlusCLS_Tests.modulemap"; sourceTree = "<group>"; };
 		45EE8E2B38CCAF2521764ABED789791C /* PlusCLS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PlusCLS-Info.plist"; sourceTree = "<group>"; };
 		4991C0120D49CE8368B05872713CC0F7 /* Pods-PlusCLS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlusCLS_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5608967CEA2C143865944347B566BE01 /* Pods-PlusCLS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlusCLS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5979AE2EDF375153F9B891D5346DAB7A /* Pods-PlusCLS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlusCLS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5F9F9C545BC69536995E247D6105C27E /* Pods-PlusCLS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlusCLS_Tests-Info.plist"; sourceTree = "<group>"; };
-		623DEFC71C58CAC345E715D74D4DE1BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		623DEFC71C58CAC345E715D74D4DE1BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6361065D8B6C104468C86120557FB4B8 /* Pods-PlusCLS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlusCLS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7707E1E1C2EE78F1B43DEC94497C8ADE /* Pods-PlusCLS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PlusCLS_Example.modulemap"; sourceTree = "<group>"; };
 		84CAE7CAD21A6F92D37A97033D20DDBA /* Pods-PlusCLS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlusCLS_Example-dummy.m"; sourceTree = "<group>"; };
 		8C91D33AB4D24F3A0B8DE5FE33FC0E67 /* Pods-PlusCLS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlusCLS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8D5FA24B095B3E35383689CB38651958 /* libCLSCheckLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCLSCheckLib.a; path = PlusCLS/Classes/libCLSCheckLib.a; sourceTree = "<group>"; };
 		8DCF7A2978EBE6AE5845F02E8C902CC5 /* PlusCLS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlusCLS-umbrella.h"; sourceTree = "<group>"; };
-		8FE916F074313A3FFDC304FBBED937FF /* PlusCLS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PlusCLS.framework; path = PlusCLS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FE916F074313A3FFDC304FBBED937FF /* PlusCLS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlusCLS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0E006274A21D2CBD4EF923217E33AE /* PlusCLS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PlusCLS-prefix.pch"; sourceTree = "<group>"; };
 		A0B0626B47DA637A25D3D04B15F48C42 /* Pods-PlusCLS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlusCLS_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A9D17502C479537FCCDE14F4484F9988 /* Pods-PlusCLS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlusCLS_Tests-dummy.m"; sourceTree = "<group>"; };
-		B8A1878D1418F29B1831DD51B42C9181 /* PlusCLS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PlusCLS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8A1878D1418F29B1831DD51B42C9181 /* PlusCLS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PlusCLS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9B09FE5940260E787F72EA2C1C9CBF1 /* Pods-PlusCLS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlusCLS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CB8C23572BF03DE281E2F82717E52936 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB8C23572BF03DE281E2F82717E52936 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D26ADB278FC643E6E8533DF7F9CBC4FF /* PlusCLS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PlusCLS-dummy.m"; sourceTree = "<group>"; };
 		DAEB422FEE75FF4B6AADC6BCAA5EC5B3 /* PlusCLS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PlusCLS.xcconfig; sourceTree = "<group>"; };
 		DF6E71F73C03E96C4FA4C10CE1B446C2 /* Pods-PlusCLS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlusCLS_Example-umbrella.h"; sourceTree = "<group>"; };
 		DFDE11912A4F3E0C2C1ED683EE41C00B /* CLSCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSCheck.h; path = PlusCLS/Classes/CLSCheck.h; sourceTree = "<group>"; };
 		E5A71DED5880E78EE81D2635964DA160 /* Pods-PlusCLS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlusCLS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ED33718871EDC4E9761B8AFCA25D8544 /* PlusCLS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PlusCLS.modulemap; sourceTree = "<group>"; };
-		F06326F60E4C38838FFDAA1BA6DA4425 /* Pods_PlusCLS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlusCLS_Example.framework; path = "Pods-PlusCLS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06326F60E4C38838FFDAA1BA6DA4425 /* Pods_PlusCLS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlusCLS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				DFDE11912A4F3E0C2C1ED683EE41C00B /* CLSCheck.h */,
+				1ED1FD10226F2405001F77A0 /* CLSRes.bundle */,
 				8D5FA24B095B3E35383689CB38651958 /* libCLSCheckLib.a */,
 				0245E122FCDADAA7C4BDAB9DB0FA77B2 /* Pod */,
 				C4D2C6A99E22EE85DDD5B9163B81FEE9 /* Support Files */,
@@ -344,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED1FD11226F2406001F77A0 /* CLSRes.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,8 +464,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
