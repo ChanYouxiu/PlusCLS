@@ -1,0 +1,6 @@
+framework module PlusCLS {
+  umbrella header "PlusCLS-umbrella.h"
+
+  export *
+  module * { export * }
+}

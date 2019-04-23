@@ -1,0 +1,22 @@
+{
+  "name": "PlusCLS",
+  "version": "0.1.0",
+  "summary": "A short description of PlusCLS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ChanYouxiu/PlusCLS.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ChanYouxiu": "q584930636@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ChanYouxiu/PlusCLS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PlusCLS/Classes/**/*.{h,a}"
+}

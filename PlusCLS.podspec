@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/CarpenterLin/PlusCLS'
+  s.homepage         = 'https://github.com/ChanYouxiu/PlusCLS.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'CarpenterLin' => 'carpentervergil@gmail.com' }
-  s.source           = { :git => 'https://github.com/CarpenterLin/PlusCLS.git', :tag => s.version.to_s }
+  s.author           = { 'ChanYouxiu' => 'q584930636@gmail.com' }
+  s.source           = { :git => "https://github.com/ChanYouxiu/PlusCLS.git", :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PlusCLS/Classes/**/*'
+  s.source_files = 'PlusCLS/Classes/**/*.{h,a}'
   
   # s.resource_bundles = {
   #   'PlusCLS' => ['PlusCLS/Assets/*.png']

@@ -1,0 +1,6 @@
+framework module Pods_PlusCLS_Tests {
+  umbrella header "Pods-PlusCLS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
