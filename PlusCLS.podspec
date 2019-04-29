@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PlusCLS'
-  s.version          = '0.3.1'
+  s.version          = '0.3.2'
   s.summary          = 'A short description of PlusCLS.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PlusCLS/Classes/**/*.{h,a,bundle}'
+  s.source_files = 'PlusCLS/Classes/**/*.{h,a}'
   
   # s.resource_bundles = {
   #   'PlusCLS' => ['PlusCLS/Assets/*.*']
