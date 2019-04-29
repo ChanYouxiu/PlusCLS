@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E69B9132276C668005A6D4A /* CLSRes.bundle in Sources */ = {isa = PBXBuildFile; fileRef = 1ED1FD10226F2405001F77A0 /* CLSRes.bundle */; };
 		1ED1FD11226F2406001F77A0 /* CLSRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1ED1FD10226F2405001F77A0 /* CLSRes.bundle */; };
 		20EF02DDDD8A29942FF6438D6E632EEE /* PlusCLS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCF7A2978EBE6AE5845F02E8C902CC5 /* PlusCLS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B305B5BE28526E0173C14DA4615A79D /* Pods-PlusCLS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D17502C479537FCCDE14F4484F9988 /* Pods-PlusCLS_Tests-dummy.m */; };
@@ -374,6 +375,7 @@
 			files = (
 				A6AC2053D8D98C19B177AA22F9C6D3EE /* libCLSCheckLib.a in Sources */,
 				A131E7DE6CF197EFCD3162C35D5876ED /* PlusCLS-dummy.m in Sources */,
+				1E69B9132276C668005A6D4A /* CLSRes.bundle in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
