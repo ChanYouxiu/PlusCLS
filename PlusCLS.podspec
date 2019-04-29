@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PlusCLS/Classes/**/*.{h,a}'
+  s.source_files = 'PlusCLS/Classes/**/*.{h,a,bundle}'
   
   # s.resource_bundles = {
   #   'PlusCLS' => ['PlusCLS/Assets/*.*']
