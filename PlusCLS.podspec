@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'PlusCLS/Classes/**/*.{h,a}'
   
   # s.resource_bundles = {
-  #   'PlusCLS' => ['PlusCLS/Assets/*.png']
+  #   'PlusCLS' => ['PlusCLS/Assets/*.*']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
